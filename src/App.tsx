@@ -13,7 +13,7 @@ function App(): JSX.Element {
 
     // делаем из инпута массив чисел
     nums = input.split(',').map(item => {
-      if (item.trim() !== '') { return +item } else { return NaN }
+      if (item.trim() !== '' && Number(item).toString().length === item.trim().length) { return +item } else { return NaN }
     })
 
     //вызов функции, в которую помещаем массив чисел nums
