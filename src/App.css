@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 40px;
+}
+
+.app__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  margin-bottom: 40px;
+}
+
+button {
+  width: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px 10px;
+}
